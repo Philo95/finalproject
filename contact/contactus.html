@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+    <link rel="about" href="/aboutpage/about.html">
+    <link rel="home" href="/index.html">
+    <link rel="reset" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/product/fallwinter.html">
+    <link rel="stylesheet" href="/product/springsummer.html">
+    <link rel="stylesheet" href="/ourvalues/values.html">
+    <link rel="stylesheet" href="/history/company.html">
+    
+   
+    <link rel="thanks" href="/thanks.html">
+</head>
+
+<body id="POSbody">
+    
+    <section id="navsec">
+        <div id="logo">RUSBUS!! Rainboots R Us</div>
+        <nav id="navbar">
+          <div class="dropdown">
+            <input type="checkbox" id="checkbox_history" class="dropdown-menu">
+            <label for="checkbox_history">
+                Our History
+            
+            </label>
+    
+            <div class="dropdown-bar">
+              <a href="/history/company.html">Where we started</a>
+              <a href="/ourvalues/values.html">Our values</a>
+              
+            </div>
+        </div> 
+        
+        <a href="/index.html">Home</a>
+        <div class="dropdown">
+            <input type="checkbox" id="checkbox_products" class="dropdown-menu">
+            <label for="checkbox_products">
+                Products
+                
+            </label>
+            <div class="dropdown-bar">
+                <a href="/product/fallwinter.html">Summer/Spring wear</a>
+                <a href="/product/fallwinter.html">Fall/Winter wear</a>
+                
+            </div>
+        </nav>
+          </div>
+        </section>
+        
+        <main id="POSmain">
+            
+            <section id="inventory">
+                <h2>Inventory</h2>
+        
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Brand</th>
+                            <th>Model</th>
+                            <th>Display Type</th>
+                            <th>Size (in inches)</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Subtotal</th>
+                        </tr>
+                    </thead>
+        
+                    <tbody>
+                        <tr>
+                            <td>Sony</td>
+                            <td>KD65X75K</td>
+                            <td>4K UHD HDR LED</td>
+                            <td>65</td>
+                            <td class="price">929.99</td>
+                            <td class="quantity">7</td>
+                            <td class="subtotal"></td>
+                        </tr>
+        
+                        <tr>
+                            <td>LG</td>
+                            <td>65UQ7590PUB</td>
+                            <td>4K UHD HDR LED</td>
+                            <td>65</td>
+                            <td class="price">799.99</td>
+                            <td class="quantity">5</td>
+                            <td class="subtotal"></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Insignia</td>
+                            <td>42F201CA23</td>
+                            <td>1080p LED</td>
+                            <td>42</td>
+                            <td class="price">239.99</td>
+                            <td class="quantity">3</td>
+                            <td class="subtotal"></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Panasonic</td>
+                            <td>PN50952-22C</td>
+                            <td>4K UHD HDR LED</td>
+                            <td>50</td>
+                            <td class="price">399.99</td>
+                            <td class="quantity">8</td>
+                            <td class="subtotal"></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Samsung</td>
+                            <td>QN65Q60BAFXZC</td>
+                            <td>4K UHD HDR QLED</td>
+                            <td>65</td>
+                            <td class="price">999.99</td>
+                            <td class="quantity">6</td>
+                            <td class="subtotal"></td>
+                        </tr>
+        
+                        <tr>
+                            <td>Sony</td>
+                            <td>XB85X90K</td>
+                            <td>4K UHD HDR LED</td>
+                            <td>85</td>
+                            <td class="price">2799.99</td>
+                            <td class="quantity">2</td>
+                            <td class="subtotal"></td>
+                        </tr>
+                    </tbody>
+        
+                    <tfoot>
+                        <tr>
+                            <th>Total</th>
+                            <td ></td>
+                            <td ></td>
+                            <td ></td>
+                            <td ></td>
+                            <td ></td>
+                            <td id="total">0.00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+    <section id="formsection">
+    <form action='/thanks.html' netlify method='post'><input type='hidden' name='form-name' value='form 1'/>
+        <fieldset id="field1">
+            <legend id="legend1"><strong>Place your order with us</strong></legend>
+
+                <div id="contactslots">
+                    <label for="name1">Name + last name</label><br>
+                    
+                    <input type="text" name="name" id="name1" required />
+                <br>
+                
+                    <label for="address">Address + Postal code</label><br>
+                    <input type="text" name="address" id="address" required />
+                <br>
+                
+                
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" required />
+                
+                <br>
+                    <label for="PhoneNumber">Phone Number:</label><br>
+                    <input type="tel" name="PhoneNumber" id="PhoneNumber" optional/>
+                </div>
+          
+            </fieldset>
+            <fieldset id="reason">
+                <legend id="legend2"><strong>Reason for form submission</strong></legend>
+                
+                <select name="message" id="message" required>
+                    <option value="Careers">Offer of employment/Interview</option>
+                    <option value="Marketing">I want to collaborate</option>
+                    <option value="General">General Inquiry</option>
+                    <option value="Business">Business proposal/Commission</option>
+                </select>
+            </fieldset>
+            
+            <fieldset id="message1">
+                
+                    
+                    <textarea id="textarea" name="textarea" id="textarea" rows="20"
+                    cols="30" required>enter your message here</textarea>
+                    <p > <input id="submit" type="submit" value="Submit"  /> </p>
+                
+            </fieldset>
+            
+            
+            
+        </section>
+        </form>
+    </main>
+
+</body>
+
+</html>
