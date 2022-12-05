@@ -14,8 +14,9 @@ input[type=checkbox] {
 
 header {
     overflow: hidden;
-    background-color: #262626;
-    margin-bottom: 50px;
+   
+   margin-bottom: 2em;
+   margin-right: 10%;
 }
 
 #logo {
@@ -38,21 +39,18 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
-#mainsec {
-    background-color: rgb(3, 86, 86);
-align-content: left;
-}
+
 
 #mainsec p {
     font-size: large;
-    float: left;
-    margin-left: 5em;
+    
+   margin-left: 10%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
 nav a {
-
+overflow: hidden;
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -64,10 +62,9 @@ nav a {
 
 #homebody {
     background-color: rgb(19, 227, 246);
-    margin: 0px;
-    padding: 0px;
+ 
     font-family: 'Open Sans', sans-serif;
-    justify-content: center;
+ 
 }
 
 #footer {
@@ -78,7 +75,7 @@ nav a {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 5em;
+    margin-top: 10em;
     padding: 0.5em;
     margin-bottom: 0em;
 }
@@ -94,7 +91,9 @@ nav a {
     color: white;
     cursor: pointer;
 }
-
+#homebody {
+    line-height: 1;
+}
 .dropdown-bar {
 
     position: absolute;
@@ -107,12 +106,8 @@ nav a {
     align-content: center;
 }
 
-#mainimgs img {
-    height: 400px;
 
-    
 
-}
 #indeximg {
     margin-left: 17em;
 }
@@ -120,9 +115,32 @@ nav a {
     float: right;
     margin-right: 17em;
 }
+header h1 {
+    font-size: 4.4em;
+    color:darkblue  ;
+    text-align: center;
+    
 
+}
 
-
+ header h2 {
+    font-size: 2.1em;
+    color: rgb(5, 5, 99);
+    font-weight: bold;
+}
+#homeheader {
+height: 300px;
+background-image: url(/images/istockphoto-1080426744-612x612.jpg);
+background-size: cover;
+background-position: left;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap:1em;
+color:white;
+align-items: center;
+margin-left: 10em;
+}
 
 #POSbody {
     background-color: aliceblue;
@@ -195,4 +213,41 @@ tr:not(last-child) {
 th:not(:last-child),
 td:not(:last-child) {
     border-right: 1px dashed #333;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+#catboot {
+    width: 20%;
+    float:left;
+    margin-right: 2em;
+    margin-bottom: 1em;
+
+}
+#fallcontent {
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    width: 200px;
+    padding: 1em;
+
+}
+
+article img {
+    width: 100%;
+}
+
+#fallcontent {
+    display: flex;
+    margin-left: 2em;
+}
+
+aside {
+    width: 30%;
+    order: 1;
+}
+#fallh2 {
+    font-weight: bold;
 }
