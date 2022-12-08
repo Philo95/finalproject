@@ -61,13 +61,13 @@ overflow: hidden;
 }
 
 #homebody {
-    background-color: rgb(19, 227, 246);
+    background-color: rgb(77, 77, 247);
  
     font-family: 'Open Sans', sans-serif;
  
 }
 
-#footer {
+#mainfooter {
     height: 100px;
     background-color: #8500be;
     color: #fff;
@@ -78,6 +78,31 @@ overflow: hidden;
     margin-top: 10em;
     padding: 0.5em;
     margin-bottom: 0em;
+}
+#fallfooter {
+    height: 100px;
+    background-color: #8500be;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    padding: 0.5em;
+    margin-bottom: 0em;
+}
+
+#historyfooter {
+    height: 100px;
+    background-color: #8500be;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
+    padding: 0.5em;
+    margin-bottom: 10em;
 }
 
 .dropdown {
@@ -91,9 +116,7 @@ overflow: hidden;
     color: white;
     cursor: pointer;
 }
-#homebody {
-    line-height: 1;
-}
+
 .dropdown-bar {
 
     position: absolute;
@@ -102,9 +125,6 @@ overflow: hidden;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-#contactbody {
-    align-content: center;
-}
 
 
 
@@ -117,24 +137,28 @@ overflow: hidden;
 }
 header h1 {
     font-size: 4.4em;
-    color:darkblue  ;
+    color: red;
     text-align: center;
+    text-shadow: 5px #262626;
     
-
+    
+    
 }
 
- header h2 {
+header h2 {
     font-size: 2.1em;
     color: rgb(5, 5, 99);
     font-weight: bold;
+    text-shadow: 5px #333;
+
 }
 #homeheader {
-height: 300px;
-background-image: url(/images/istockphoto-1080426744-612x612.jpg);
-background-size: cover;
-background-position: left;
-display: flex;
-flex-direction: column;
+    height: 300px;
+    background-image: url(/images/istockphoto-1080426744-612x612.jpg);
+    background-size: cover;
+    background-position: left;
+    display: flex;
+    flex-direction: column;
 justify-content: center;
 gap:1em;
 color:white;
@@ -152,6 +176,137 @@ margin-left: 10em;
     gap: 2em;
 }
 
+#contactbody {
+    align-content: center;
+}
+
+#fallbody {
+    background-color: #333;
+    color: #ecf0f1;
+    font-size: medium;
+    font-style: normal;
+}
+#historybody {
+    background-color: #333;
+    color: #ecf0f1;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+#quote{
+    text-shadow: 5px #333;
+
+}
+#catboot {
+    width: 20%;
+    float:left;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    
+}
+#fallcontent {
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    width: 200px;
+    padding: 1em;
+    
+}
+#fallpic {
+    float: right;
+    width: 400px;
+}
+
+article img {
+    width: 100%;
+}
+
+#fallcontent {
+    display: flex;
+    margin-left: 2em;
+}
+
+aside {
+    width: 30%;
+    order: 1;
+}
+#fallh2 {
+    font-weight: bold;
+}
+#historyheader {
+    height: 300px;
+    background-image: url(/images/DALL·E\ 2022-12-04\ 15.50.11\ -\ outside\ of\ a\ rainboot\ store\ with\ logo.png);
+    background-size: cover;
+    background-position:top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10em;
+    gap:1em;
+    color:white;
+    align-items: center;
+    
+}
+#historyheader h1{
+    color: rgb(204, 6, 6);
+    text-shadow: #262626;
+    font-size: 3.4em;
+}
+#me {
+    text-align: center;
+}
+
+#aboutme {
+    margin: 20px;
+    margin-left: 5em;
+    line-height: 1.5em;
+}
+
+#aboutmelist {
+    list-style-type: none;
+    width: 1000px;
+}
+
+#aboutmeh3 {
+    font: bold 20px/1.5, 'roboto', sans-serif;
+}
+
+#aboutmepic1 {
+    float: left;
+    margin: 0 20px 0 0;
+    margin-bottom: 6em;
+}
+
+#aboutmepic2 {
+    float: right;
+    margin: 0 15px 0 0;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+#aboutmepic3 {
+    float: left;
+    margin: 0 15px 0 0;
+    margin-top: 1em;
+}
+
+
+
+#about {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    
+}
+
+#aboutmelist {
+    padding: 10px;
+    overflow: auto;
+}
 #inventory,
 #featured {
     display: flex;
@@ -213,41 +368,4 @@ tr:not(last-child) {
 th:not(:last-child),
 td:not(:last-child) {
     border-right: 1px dashed #333;
-}
-main {
-    display: flex;
-    flex-wrap: wrap;
-}
-#catboot {
-    width: 20%;
-    float:left;
-    margin-right: 2em;
-    margin-bottom: 1em;
-
-}
-#fallcontent {
-    display: flex;
-    flex-wrap: wrap;
-}
-article {
-    width: 200px;
-    padding: 1em;
-
-}
-
-article img {
-    width: 100%;
-}
-
-#fallcontent {
-    display: flex;
-    margin-left: 2em;
-}
-
-aside {
-    width: 30%;
-    order: 1;
-}
-#fallh2 {
-    font-weight: bold;
 }
