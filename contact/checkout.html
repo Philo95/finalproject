@@ -53,9 +53,23 @@
     </nav>
   </section>
   <section id="cartbody">
-    <h1>Add to Cart</h1>
+  
 
     <table>
+      <script>
+        function addTheValue(secondValue) {
+          var fValue = document.getElementById("firstValue");
+          firstValue.innerHTML = parseInt(fValue.innerHTML) +
+            parseInt(secondValue);
+        }
+      </script>
+      <script>
+        function removeTheValue(secondValue) {
+          var fValue = document.getElementById("firstValue");
+          firstValue.innerHTML = parseInt(fValue.innerHTML) +
+            parseInt(secondValue);
+        }
+      </script>
       <tbody>
         <tr>
           <td>Product ID </td>
@@ -70,8 +84,8 @@
           <td>1</td>
           <td>49.99</td>
           <td>
-            <button type="submit" onclick='deleteProduct("Wintersheek", this);'>Delete Item</button> &nbsp;
-            <button type="submit" onclick='addCart("Wintersheek", this);'>Add to Cart</button>
+            <button type="button" onclick="deleteTheValue(26.99)">Remove from cart</button>
+            <button type="button" onclick="addTheValue(26.99)">Add to cart </button>
           </td>
         </tr>
         <tr>
@@ -80,8 +94,8 @@
           <td>1</td>
           <td>59.99</td>
           <td>
-            <button type="submit" onclick='deleteProduct("Chillyshelly", this);'>Delete Item</button> &nbsp;
-            <button type="submit" onclick='addCart("Chillyshelly", this);'>Add to Cart</button>
+            <button type="button" onclick="deleteTheValue(26.99)">Remove from cart</button>
+            <button type="button" onclick="addTheValue(59.99)">Add to cart </button>
           </td>
         </tr>
         <tr>
@@ -90,8 +104,8 @@
           <td>1</td>
           <td>19.99</td>
           <td>
-            <button type="submit" onclick='deleteProduct("Recycler", this);'>Delete Item</button> &nbsp;
-            <button type="submit" onclick='addCart("Recycler", this);'>Add to Cart</button>
+            <button type="button" onclick="deleteTheValue(26.99)">Remove from cart</button>
+            <button type="button" onclick="addTheValue(19.99)">Add to cart </button>
           </td>
         </tr>
         <tr>
@@ -100,8 +114,8 @@
           <td>1</td>
           <td>29.99</td>
           <td>
-            <button type="submit" onclick='deleteProduct("Dampfallers", this);'>Delete Item</button> &nbsp;
-            <button type="submit" onclick='addCart("Dampfallers", this);'>Add to Cart</button>
+            <button type="button" onclick="deleteTheValue(26.99)">Remove from cart</button>
+            <button type="button" onclick="addTheValue(29.99)">Add to cart </button>
           </td>
         </tr>
         <tr>
@@ -110,8 +124,8 @@
           <td>1</td>
           <td>24.99</td>
           <td>
-            <button type="submit" onclick='deleteProduct("Polka-princess", this);'>Delete Item</button> &nbsp;
-            <button type="submit" onclick='addCart("Polka-princess", this);'>Add to Cart</button>
+            <button type="button" onclick="deleteTheValue(26.99)">Remove from cart</button>
+            <button type="button" onclick="addTheValue(24.99)">Add to cart </button>
           </td>
         </tr>
         <tr>
@@ -120,8 +134,8 @@
           <td>1</td>
           <td>29.99</td>
           <td>
-            <button type="submit" onclick='deleteProduct("Oomphaloompa", this);'>Delete Item</button> &nbsp;
-            <button type="submit" onclick='addCart("Oomphaloompa", this);'>Add to Cart</button>
+            <button type="button" onclick="deleteTheValue(26.99)">Remove from cart</button>
+            <button type="button" onclick="addTheValue(29.99)">Add to cart </button>
           </td>
         </tr>
         <tr>
@@ -130,8 +144,8 @@
           <td>1</td>
           <td>9.99</td>
           <td>
-            <button type="submit" onclick='deleteProduct("Dirtysammies", this);'>Delete Item</button> &nbsp;
-            <button type="submit" onclick='addCart("Dirtysammies", this);'>Add to Cart</button>
+            <button type="button" onclick="deleteTheValue(26.99)">Remove from cart</button>
+            <button type="button" onclick="addTheValue(9.99)">Add to cart </button>
           </td>
         </tr>
         <tr>
@@ -140,26 +154,25 @@
           <td>1</td>
           <td>26.99</td>
           <td>
-            <button type="submit" onclick='deleteProduct("Thiccboots", this);'>Delete Item</button> &nbsp;
-            <button type="submit" onclick='addCart("Thiccboots", this);'>Add to Cart</button>
+            <button type="button" onclick="deleteTheValue(26.99)">Remove from cart</button>
+            <button type="button" onclick="addTheValue(26.99)">Add to cart </button>
           </td>
         </tr>
       </tbody>
+      
       <div id="total">
         <p> Shopping Cart </p>
         <p id="demo2"></p>
-        <p>Grand Total:</p>
-        <p id="$"></p>
-        <script>
-          let d = new addEventListener();
-      TotalNode.innerHTML = " $ "
-        </script>
-      </div>
+        <p>Grand Total: $<b id="firstValue">0</b></p>
+      </p>
+
+
+
     </table>
     </p>
     <div id="fallcontent2">
       <main>
-      
+
         <article>
           <img src="/images/DALL·E 2022-12-04 15.53.32 - furry insulated rainboots in a rainboot superstore.png"
             alt="placeholder">

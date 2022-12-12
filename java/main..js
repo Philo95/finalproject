@@ -33,14 +33,8 @@ var items = [
       }
 
   ];
-  var total = 0;
-  for (var i = 0; i < items.length; i++) {
-    var item = items[i];
-    var itemNode = document.createElement('div');
-    itemNode.innerHTML = item.name + ' $' + item.price;
-    document.body.appendChild(itemNode);
-    total += item.price;
-  }
-  var totalNode = document.createElement('div');
-  totalNode.innerHTML = 'Total $' + total;
-  document.body.appendChild(totalNode);
+  function addTheValue(secondValue) {
+    var fValue = document.getElementById("firstValue");
+    firstValue.innerHTML = parseInt(fValue.innerHTML) +
+    parseInt(secondValue);
+ }
