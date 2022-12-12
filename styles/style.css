@@ -458,10 +458,11 @@ button{
         text-align: center;
         min-height: 60px;
         display: flex;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
     #homeheader {
-        width: 100%;
+        width: 80%;
     }
 }
