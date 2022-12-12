@@ -406,9 +406,45 @@ button{
 #demo3 {
     color: white;
 }
-td {
-    margin-right: 2em;
-}
+
+
 #total {
     margin-bottom: 2em;
+}
+.addtocart {
+    text-decoration:none;
+    border-radius:3px;
+    box-shadow:1px 1px 2px #999;
+    border:1px solid #BF431B;
+    color:#fff;
+    text-shadow:0 1px 2px #902006;
+    font-weight:bold;
+    font-family:'Cabin',sans-serif;
+    font-size:12px;
+    background:#F3662B;
+    cursor:pointer;
+    position: relative;
+    height:30px;
+    width:91px;
+    display:block;
+   
+    transition-delay:.2s, .2s, 0s;
+    z-index:1;
+}
+.addtocart:after {
+    width:90px;
+    margin-top:9px;
+    display:block;
+    position:absolute;
+    content:"Add to cart";
+    text-align:center;
+    left:0;
+    top:0;
+}
+
+.addtocart {
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    float: right;
 }
