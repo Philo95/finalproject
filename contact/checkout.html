@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact me</title>
+  <link rel="about" href="/aboutpage/about.html">
+  <link rel="home" href="/index.html">
+  <link rel="reset" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/product/fallwinter.html">
+  <link rel="stylesheet" href="/product/springsummer.html">
+  <link rel="stylesheet" href="/ourvalues/values.html">
+  <link rel="stylesheet" href="/history/company.html">
+  <link rel="stylesheet" href="/contact/deliver.html">
+  <link rel="thanks" href="/thanks.html">
+  <link rel="stylesheet" href="/java/main..js">
+</head>
+
+<body id="fallbody">
+
+  <section id="navsec">
+    <div id="logo">RUSBUS!! Rainboots R Us</div>
+    <nav id="navbar">
+      <div class="dropdown">
+        <input type="checkbox" id="checkbox_history" class="dropdown-menu">
+        <label for="checkbox_history">
+          Our History
+
+        </label>
+
+        <div class="dropdown-bar">
+          <a href="/history/company.html">Where we started</a>
+
+
+        </div>
+      </div>
+
+      <a href="/index.html">Home</a>
+      <div class="dropdown">
+        <input type="checkbox" id="checkbox_products" class="dropdown-menu">
+        <label for="checkbox_products">
+          Products
+
+        </label>
+        <div class="dropdown-bar">
+          <a href="/product/fallwinter.html">Summer/Spring wear</a>
+          <a href="/product/fallwinter.html">Fall/Winter wear</a>
+
+        </div>
+    </nav>
+  </section>
+  <section id="cartbody">
+    <h1>Add to Cart</h1>
+
+    <table>
+      <tbody>
+        <tr>
+          <td>Product ID </td>
+          <td>Product Description </td>
+          <td>Quantity </td>
+          <td>Price </td>
+          <td>Action </td>
+        </tr>
+        <tr>
+          <td>Winter</td>
+          <td>Wintersheek</td>
+          <td>1</td>
+          <td>49.99</td>
+          <td>
+            <button type="submit" onclick='deleteProduct("GPS", this);'>Delete Item</button> &nbsp;
+            <button type="submit" onclick='addCart("GPS", this);'>Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Winter</td>
+          <td>Chillyshelly</td>
+          <td>1</td>
+          <td>59.99</td>
+          <td>
+            <button type="submit" onclick='deleteProduct("Alarm", this);'>Delete Item</button> &nbsp;
+            <button type="submit" onclick='addCart("Alarm", this);'>Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Winter</td>
+          <td>Recycler</td>
+          <td>1</td>
+          <td>19.99</td>
+          <td>
+            <button type="submit" onclick='deleteProduct("Car", this);'>Delete Item</button> &nbsp;
+            <button type="submit" onclick='addCart("Car", this);'>Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Fall</td>
+          <td>Dampfallers</td>
+          <td>1</td>
+          <td>29.99</td>
+          <td>
+            <button type="submit" onclick='deleteProduct("Car", this);'>Delete Item</button> &nbsp;
+            <button type="submit" onclick='addCart("Car", this);'>Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Summer</td>
+          <td>Polka-princess</td>
+          <td>1</td>
+          <td>24.99</td>
+          <td>
+            <button type="submit" onclick='deleteProduct("Car", this);'>Delete Item</button> &nbsp;
+            <button type="submit" onclick='addCart("Car", this);'>Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Summer</td>
+          <td>Oomphaloompa</td>
+          <td>1</td>
+          <td>29.99</td>
+          <td>
+            <button type="submit" onclick='deleteProduct("Car", this);'>Delete Item</button> &nbsp;
+            <button type="submit" onclick='addCart("Car", this);'>Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Summer</td>
+          <td>Dirtysammies</td>
+          <td>1</td>
+          <td>9.99</td>
+          <td>
+            <button type="submit" onclick='deleteProduct("Car", this);'>Delete Item</button> &nbsp;
+            <button type="submit" onclick='addCart("Car", this);'>Add to Cart</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Summer</td>
+          <td>Thiccboots</td>
+          <td>1</td>
+          <td>26.99</td>
+          <td>
+            <button type="submit" onclick='deleteProduct("Car", this);'>Delete Item</button> &nbsp;
+            <button type="submit" onclick='addCart("Car", this);'>Add to Cart</button>
+          </td>
+        </tr>
+      </tbody>
+      <div id="total">
+        <p> Shopping Cart </p>
+        <p id="demo2"></p>
+        <p>Grand Total:</p>
+        <p id="demo3"></p>
+      </div>
+    </table>
+    </p>
+    <div id="fallcontent2">
+      <main>
+      
+        <article>
+          <img src="/images/DALL·E 2022-12-04 15.53.32 - furry insulated rainboots in a rainboot superstore.png"
+            alt="placeholder">
+          <h3>Wintersheek</h3>
+          <p>Our cotton fabric boots are insulated with high quality wool. Providing comfort without the look of rubber
+            boots.</p>
+          <footer>$49.99</footer>
+        </article>
+        <article>
+          <img src="/images/DALL·E 2022-12-04 15.53.41 - furry insulated rainboots in a rainboot superstore.png"
+            alt="placeholder">
+          <h3>Chillyshelly</h3>
+          <p>Our sleek and smooth style insulated boot provides exellent protection from the elements but ensures you
+            stay stylish.</p>
+          <footer>$59.99</footer>
+        </article>
+        <article>
+          <img src="/images/DALL·E 2022-12-04 15.53.51 - furry insulated rainboots in a rainboot superstore.png"
+            alt="placeholder">
+          <h3>Recycler</h3>
+          <p>We have a great selection of used insulated rain boots. Stay protected for a fraction of the price!!</p>
+          <footer>$19.99</footer>
+        </article>
+        <article>
+          <img src="/images/DALL·E 2022-12-04 15.57.49 - winter rainboots in a rainboot superstore.png"
+            alt="placeholder">
+          <h3>Dampfallers</h3>
+          <p>Our non-insulated "fall certified" boots are double layered for the most brisk of fall days.</p>
+          <footer>29.99</footer>
+        </article>
+        <article>
+          <img src="/images/DALL·E 2022-12-11 19.22.15 - summer rain boots real hd.png" alt="placeholder">
+          <h3>Polka-princess</h3>
+          <p>Show off your personality with funky polka dot, coloured boots</p>
+          <footer>$24.99</footer>
+        </article>
+        <article>
+          <img src="/images/DALL·E 2022-12-11 19.22.59 - summer rain boots real hd.png" alt="placeholder">
+          <h3>Oomphaloompa</h3>
+          <p>Match any outfit with our sleek designs with an added heel for extra oophm</p>
+          <footer>$29.99</footer>
+        </article>
+        <article>
+          <img src="/images/DALL·E 2022-12-11 19.24.24 - used summer rain boots real hd.png" alt="placeholder">
+          <h3>Dirtysammies</h3>
+          <p>Reduce, reuse and recycle with our used boots! Perfect for a budget</p>
+          <footer>$9.99</footer>
+        </article>
+        <article>
+          <img src="/images/DALL·E 2022-12-11 19.22.41 - summer rain boots real hd.png" alt="placeholder">
+          <h3>Thiccboots</h3>
+          <p>Solid, thick material boots for the roughest of terrains. Perfect for hiking in the worst of weathers.</p>
+          <footer>$26.99</footer>
+        </article>
+        <div>
+
+        </div>
+
+
+  </section>
+
+</body>
+
+
+</html>
