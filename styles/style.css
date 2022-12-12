@@ -453,7 +453,7 @@ button{
 
 
 @media screen and (max-width: 730px) {
-    * {
+    #navsec {
         position: relative;
         text-align: center;
         min-height: 60px;
