@@ -1,125 +1,46 @@
+var items = [
+    {
+      name: 'Chillyshelly',
+      price: 25.25
+    },
+    {
+      name: 'Wintersheek',
+      price: 0.30
+    },
+    {
+      name: 'Recycler',
+      price: 0.15
+    },
+    {
+        name: 'Dampfallers',
+        price: 0.15
+      },
+      {
+        name: 'Polka-princess',
+        price: 0.15
+      },
+      {
+        name: 'Oomphaloompa',
+        price: 0.15
+      },
+      {
+        name: 'Dirtysammies',
+        price: 0.15
+      },
+      {
+        name: 'thiccboots',
+        price: 0.15
+      }
 
-var addToCart = document.createElement('div');
-addToCart.innerHTML = '<h1>Add to Cart</h1>';
-document.body.appendChild(addToCart);
-var addToCartForm = document.createElement('form');
-addToCartForm.innerHTML = '<select name="product"><option value="1">Product 1</option><option value="2">Product 2</option></select>';
-document.body.appendChild(addToCartForm);
-var addToCartButton = document.createElement('button');
-addToCartButton.innerHTML = 'Add to Cart';
-document.body.appendChild(addToCartButton);
-var addToCartResult = document.createElement('div');
-addToCartResult.innerHTML = '<h2>Cart</h2>';
-document.body.appendChild(addToCartResult);
-var addToCartTotal = document.createElement('div');
-addToCartTotal.innerHTML = '<h2>Total</h2>';
-document.body.appendChild(addToCartTotal);
-var addToCartTable = document.createElement('table');
-addToCartTable.innerHTML = '<tr><th>Product</th><th>Quantity</th><th>Price</th></tr>';
-document.body.appendChild(addToCartTable);
-/* <section id="cartbody"> */
-var addToCart = document.createElement('div');
-addToCart.innerHTML = '<h1>Add to Cart</h1>';
-document.body.appendChild(addToCart);
-var addToCartForm = document.createElement('form');
-addToCartForm.innerHTML = '<select name="product"><option value="1">Product 1</option><option value="2">Product 2</option></select>';
-document.body.appendChild(addToCartForm);
-var addToCartButton = document.createElement('button');
-addToCartButton.innerHTML = 'Add to Cart';
-document.body.appendChild(addToCartButton);
-var addToCartResult = document.createElement('div');
-addToCartResult.innerHTML = '<h2>Cart</h2>';
-document.body.appendChild(addToCartResult);
-var addToCartTotal = document.createElement('div');
-addToCartTotal.innerHTML = '<h2>Total</h2>';
-document.body.appendChild(addToCartTotal);
-var addToCartTable = document.createElement('table');
-addToCartTable.innerHTML = '<tr><th>Product</th><th>Quantity</th><th>Price</th></tr>';
-document.body.appendChild(addToCartTable);
-var addToCartBody = document.createElement('section');
-addToCartBody.innerHTML = '<section id="cartbody"></section>';
-document.body.appendChild(addToCartBody);
-/* <h1>Add to Cart</h1> */
-var addToCart = document.createElement('div');
-addToCart.innerHTML = '<h1>Add to Cart</h1>';
-document.body.appendChild(addToCart);
-var addToCartForm = document.createElement('form');
-addToCartForm.innerHTML = '<select name="product"><option value="1">Product 1</option><option value="2">Product 2</option></select>';
-document.body.appendChild(addToCartForm);
-var addToCartButton = document.createElement('button');
-addToCartButton.innerHTML = 'Add to Cart';
-document.body.appendChild(addToCartButton);
-var addToCartResult = document.createElement('div');
-addToCartResult.innerHTML = '<h2>Cart</h2>';
-document.body.appendChild(addToCartResult);
-var addToCartTotal = document.createElement('div');
-addToCartTotal.innerHTML = '<h2>Total</h2>';
-document.body.appendChild(addToCartTotal);
-var addToCartTable = document.createElement('table');
-addToCartTable.innerHTML = '<tr><th>Product</th><th>Quantity</th><th>Price</th></tr>';
-document.body.appendChild(addToCartTable);
-var addToCartBody = document.createElement('section');
-addToCartBody.innerHTML = '<section id="cartbody"></section>';
-document.body.appendChild(addToCartBody);
-var addToCartHeader = document.createElement('header');
-addToCartHeader.innerHTML = '<h1>Add to Cart</h1>';
-document.body.appendChild(addToCartHeader);
-/* <table> */
-var addToCart = document.createElement('div');
-addToCart.innerHTML = '<h1>Add to Cart</h1>';
-document.body.appendChild(addToCart);
-var addToCartForm = document.createElement('form');
-addToCartForm.innerHTML = '<select name="product"><option value="1">Product 1</option><option value="2">Product 2</option></select>';
-document.body.appendChild(addToCartForm);
-var addToCartButton = document.createElement('button');
-addToCartButton.innerHTML = 'Add to Cart';
-document.body.appendChild(addToCartButton);
-var addToCartResult = document.createElement('div');
-addToCartResult.innerHTML = '<h2>Cart</h2>';
-document.body.appendChild(addToCartResult);
-var addToCartTotal = document.createElement('div');
-addToCartTotal.innerHTML = '<h2>Total</h2>';
-document.body.appendChild(addToCartTotal);
-var addToCartTable = document.createElement('table');
-addToCartTable.innerHTML = '<tr><th>Product</th><th>Quantity</th><th>Price</th></tr>';
-document.body.appendChild(addToCartTable);
-var addToCartBody = document.createElement('section');
-addToCartBody.innerHTML = '<section id="cartbody"></section>';
-document.body.appendChild(addToCartBody);
-var addToCartHeader = document.createElement('header');
-addToCartHeader.innerHTML = '<h1>Add to Cart</h1>';
-document.body.appendChild(addToCartHeader);
-var addToCartTable = document.createElement('table');
-addToCartTable.innerHTML = '<table></table>';
-document.body.appendChild(addToCartTable);
-/* <tbody> */
-var addToCart = document.createElement('div');
-addToCart.innerHTML = '<h1>Add to Cart</h1>';
-document.body.appendChild(addToCart);
-var addToCartForm = document.createElement('form');
-addToCartForm.innerHTML = '<select name="product"><option value="1">Product 1</option><option value="2">Product 2</option></select>';
-document.body.appendChild(addToCartForm);
-var addToCartButton = document.createElement('button');
-addToCartButton.innerHTML = 'Add to Cart';
-document.body.appendChild(addToCartButton);
-var addToCartResult = document.createElement('div');
-addToCartResult.innerHTML = '<h2>Cart</h2>';
-document.body.appendChild(addToCartResult);
-var addToCartTotal = document.createElement('div');
-addToCartTotal.innerHTML = '<h2>Total</h2>';
-document.body.appendChild(addToCartTotal);
-var addToCartTable = document.createElement('table');
-addToCartTable.innerHTML = '<tr><th>Product</th><th>Quantity</th><th>Price</th></tr>';
-document.body.appendChild(addToCartTable);
-var addToCartBody = document.createElement('section');
-addToCartBody.innerHTML = '<section id="cartbody"></section>';
-document.body.appendChild(addToCartBody);
-var addToCartHeader = document.createElement('header');
-addToCartHeader.innerHTML = '<h1>Add to Cart</h1>';
-document.body.appendChild(addToCartHeader);
-var addToCartTable = document.createElement('table');
-addToCartTable.innerHTML = '<table></table>';
-document.body.appendChild(addToCartTable);
-var addToCartTableBody = document.createElement('tbody');
-addToCartTableBody.innerHTML = '<tbody></tbody>';
-document.body.appendChild(addToCartTableBody);
+  ];
+  var total = 0;
+  for (var i = 0; i < items.length; i++) {
+    var item = items[i];
+    var itemNode = document.createElement('div');
+    itemNode.innerHTML = item.name + ' $' + item.price;
+    document.body.appendChild(itemNode);
+    total += item.price;
+  }
+  var totalNode = document.createElement('div');
+  totalNode.innerHTML = 'Total $' + total;
+  document.body.appendChild(totalNode);
