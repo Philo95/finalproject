@@ -449,29 +449,11 @@ button{
     float: right;
 }
 
-@media screen and (min-width:1280px)   {
-    * {
-        flex-direction: row;
-        align-items: flex-start;
-    }
 
-   
 
-}
 
-@media screen and (min-width: 1600px) {
-    * {
-        max-width: 1600px;
-        margin: 0 auto;
-
-    }
-    #feature img {
-        float: left;
-        width:  40%;
-    }
-}
 @media screen and (max-width: 730px) {
-    #main-nav {
+    * {
         position: relative;
         text-align: center;
         min-height: 60px;
